@@ -1,6 +1,8 @@
 # OperatingSysemsProject1
 Adding functionality that enables user to change color of the text and background to XV6 operating system.
 
+Video showcae: https://user-images.githubusercontent.com/61984454/212170533-36a0fffb-1368-4c55-9327-e03d6f32f430.mp4
+
 Show and hide the table
 It is necessary to support the display of a table with colors, and allow the user to navigate through that table and select an item. The table is entered by holding down the <ALT> key, and pressing the letter combination: c o l. It should also be possible to release the <ALT> key between individual letters, as long as nothing else is pressed between individual letters. The same key combination should hide the table and return the user to normal operation mode. While the table is displayed, nothing but the keys to move through the table should have any effect on the terminal. The <ALT> key should not be pressed while working with the table - only when showing and hiding it. After the table is removed from the screen, whatever was there before the table appeared should appear in its place.
 
@@ -17,6 +19,7 @@ The table is located in the upper right corner of the screen, and should have tw
 |Yellow    |Yellow    |
 |White     |White     |
 \---------------------/
+
 
 Work with a table
 Moving through the table is done using the keys: w, a, s, and d, specifically:
